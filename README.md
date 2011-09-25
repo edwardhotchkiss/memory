@@ -2,21 +2,27 @@
 memory
 ======
 
- 	* Node.js module to grab your current memory usage in various formats
- 	* Why? Pretty common helper function, easier to just require() than /lib/ it
+ 	Node.js module to grab your current memory usage in various formats
+ 	Why? Pretty common helper function, easier to just require() than /lib/ it over & over
 
- 	* @params
- 	* kDec : @Integer (nearest decimel rounding)
- 	* returnMBString : @Boolean (return as a float or as a string appended with "MB")
- 
 ```bash
 $ npm install memory
 ```
 
-  	* Example:
+  	* Example (basic)
 
 ```javascript
 var memory = require("memory");
-var mb = memory(2, true);
+
+var mb = memory();
+console.log("Memory usage: ", mb);
+```
+
+	* Example (with options)
+
+```javascript
+var memory = require("memory");
+
+var mb = memory(4, true);
 console.log("Memory usage: ", mb);
 ```
