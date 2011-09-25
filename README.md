@@ -9,7 +9,7 @@ memory
 $ npm install memory
 ```
 
-  	* Example (basic)
+**Example (basic)**
 
 ```javascript
 var memory = require("memory");
@@ -18,7 +18,7 @@ var mb = memory();
 console.log("Memory usage: ", mb);
 ```
 
-	* Example (with options)
+**Example (with options)**
 
 ```javascript
 var memory = require("memory");
