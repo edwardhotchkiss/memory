@@ -2,8 +2,9 @@
 memory
 ======
 
- 	Node.js module to grab your current memory usage in various formats
- 	Why? Pretty common helper function, easier to just require() than /lib/ it over & over
+ *Node.js module to grab your current memory usage in various formats*
+ 
+ ***Why? Pretty common helper function, easier to just require() than /lib/ it over & over***
 
 ```bash
 $ npm install memory
