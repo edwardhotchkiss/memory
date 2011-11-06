@@ -10,6 +10,6 @@
     "keywords": ["memory", "usage", "twitter", "rss", "megabytes"],
     "main": "./index",
     "engines": {
-      "node": "~v0.4.11"
+      "node": ">= 0.4"
     }
 }
