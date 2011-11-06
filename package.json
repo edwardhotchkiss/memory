@@ -8,7 +8,7 @@
       "url": "git://github.com/edwardhotchkiss/memory.git"
     },
     "keywords": ["memory", "usage", "twitter", "rss", "megabytes"],
-    "main": "./index",
+    "main": "./lib/memory",
     "engines": {
       "node": ">= 0.4"
     }
