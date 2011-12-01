@@ -2,7 +2,7 @@
   "author": "Edward Hotchkiss <e@ingk.com>",
   "name": "memory",
   "description": "Node.js module to grab your current memory usage in various formats",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "git://github.com/edwardhotchkiss/memory.git"
@@ -10,6 +10,6 @@
   "keywords": ["memory", "usage", "twitter", "rss", "megabytes"],
   "main": "./lib/memory",
   "engines": {
-    "node": ">= 0.4"
+    "node": ">= 0.4.11 < 0.7.0"
   }
 }

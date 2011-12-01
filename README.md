@@ -3,8 +3,6 @@
 
 ### NodeJS module to grab your current memory usage in various formats
 
-### (Cool? I've put this into `npm install belt` as another helper. Check that out instead.)
+### Memory is now belt.memory(). Check out belt on github instead:
 
-[belt on github][1]
-
-	[1][http://github.com/edwardhotchkiss/belt]
+### [http://github/edwardhotchkiss/belt](http://github.com/edwardhotchkiss/belt)
