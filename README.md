@@ -1,29 +1,10 @@
 
-memory
-======
+# memory
 
- *Node.js module to grab your current memory usage in various formats*
- 
- ***Why? Pretty common helper function, easier to just require() than /lib/ it over & over***
+### NodeJS module to grab your current memory usage in various formats
 
-```bash
-$ npm install memory
-```
+### (Cool? I've put this into `npm install belt` as another helper. Check that out instead.)
 
-**Example (basic)**
+[belt on github][1]
 
-```javascript
-var memory = require("memory");
-
-var mb = memory();
-console.log("Memory usage: ", mb);
-```
-
-**Example (with options)**
-
-```javascript
-var memory = require("memory");
-
-var mb = memory(4, true);
-console.log("Memory usage: ", mb);
-```
+	[1][http://github.com/edwardhotchkiss/belt]
