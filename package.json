@@ -7,9 +7,15 @@
     "type": "git",
     "url": "git://github.com/edwardhotchkiss/memory.git"
   },
-  "keywords": ["memory", "usage", "twitter", "rss", "megabytes"],
+  "keywords": [
+    "memory",
+    "usage",
+    "twitter",
+    "rss",
+    "megabytes"
+  ],
   "main": "./lib/memory",
   "engines": {
-    "node": ">= 0.4.11 < 0.7.0"
+    "node": ">= 0.4.11 < 8.12.0"
   }
 }
